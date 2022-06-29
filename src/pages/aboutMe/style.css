@@ -1,0 +1,30 @@
+.about {
+	animation: about .3s ease-out;
+	margin-left: 20px
+}
+
+.about__title {
+	font-size: 32px;
+	text-align: start;
+}
+.about__text {
+	max-width: 450px;
+	white-space: pre-line;
+	line-height: 1.6em;
+}
+
+@keyframes about {
+	from {
+		transform: translateX(-15px);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0px);
+		opacity: 1;
+	}
+}
+
+.contacts__item {
+	line-height: 1.6em;
+	list-style-type: none;
+}

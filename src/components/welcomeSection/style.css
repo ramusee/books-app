@@ -1,0 +1,25 @@
+.homepage__welcome-section {
+	width: max-content;
+	margin: 50px auto 0;
+	background-color: #e8e8e8;
+	padding: 35px;
+	border-radius: 15px;
+	white-space: pre-line;
+	animation: welcome-section .3s ease-out 0s;
+}
+
+@keyframes welcome-section {
+	from {
+		transform: translateX(-15px);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0px);
+		opacity: 1;
+	}
+}
+
+.welcome-section__title {
+	font-size: 30px;
+	line-height: 2em;
+}

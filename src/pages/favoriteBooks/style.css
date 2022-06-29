@@ -1,0 +1,18 @@
+.favorites__list {
+    margin-left: 40px;
+    animation: favorite__list .3s ease-out;
+}
+
+@keyframes favorite__list {
+    from {
+        opacity: 0;
+        transform: translateX(-15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.favorites__item {
+    font-size: 16px;
+}

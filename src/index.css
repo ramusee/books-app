@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "JetBrainsMono";
+    src: url("./fonts/JetBrainsMono/JetBrainsMono-Regular.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "JetBrainsMono-Bold";
+    src: url("./fonts/JetBrainsMono/JetBrainsMono-Bold.ttf") format("truetype");;
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "JetBrainsMono-Italic";
+    src: url("./fonts/JetBrainsMono/JetBrainsMono-Italic.ttf") format("truetype");;
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "JetBrainsMono-SemiBold";
+    src: url("./fonts/JetBrainsMono/JetBrainsMono-SemiBold.ttf") format("truetype");;
+    font-style: normal;
+    font-weight: normal;
+}
+
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+    margin-right: calc(-1 * (100vw - 100%));
+}
+
+body {
+    margin: 0;
+    font-family: 'JetBrainsMono', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
